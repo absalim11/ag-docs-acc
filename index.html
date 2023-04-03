@@ -166,6 +166,7 @@
         <li class="nav-item"><a class="nav-link" href="#ag_laporan">Laporan Keuangan</a>
           <ul class="nav flex-column">
             <li class="nav-item"><a class="nav-link" href="#ag_ledger">Buku Besar (Ledger)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_worksheet">Worksheet</a></li>
             <li class="nav-item"><a class="nav-link" href="#ag_labaRugi">Laba-Rugi (Perusahaan & Cluster)</a></li>
             <li class="nav-item"><a class="nav-link" href="#ag_neraca">Neraca</a></li>
             <li class="nav-item"><a class="nav-link" href="#ag_labaRugi-compare">Laba-Rugi Komparatif (Perusahaan & Cluster)</a></li>
@@ -1520,31 +1521,139 @@
   </section>
   <!-- Semua Jurnal ====================== -->
   <section id="ag_allJurnal">
+    <h2>Semua Jurnal</h2>
+      <p class="lead mb-5">Menu semua jurnal ini digunakan untuk monitoring semia jurnal yang ada pada jurnal akuntansi. </p>
+      <h6><span class="badge badge-success text-white">1. Tampilan data</span></h6>
+      <p class="lead mb-5">Tampilan ini berisi list semua jurnal yang berhubungan dengan data jurnal akuntansi </p>
 
-  <h2>Semua Jurnal</h2>
-    <p class="lead mb-5">Menu semua jurnal ini digunakan untuk monitoring semia jurnal yang ada pada jurnal akuntansi. </p>
-    <h6><span class="badge badge-success text-white">1. Tampilan data</span></h6>
-    <p class="lead mb-5">Tampilan ini berisi list semua jurnal yang berhubungan dengan data jurnal akuntansi </p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/jurnal-akuntansi/semuajurnal/_ag-semuajurnal-viewdata.PNG" alt=""></a></p><hr>
+      
+      <h6><span class="badge badge-success text-white">2. Filter data</span></h6>
+      <p class="lead mb-5">Pengguna dapat melakukan pencarian data semua jurnal dengan filter yang sudah disediakan dengan klik tombol <img class="img-fluid border" src="assets/images/jurnal-akuntansi/tipejurnal/_ag-tipejurnal-filtericon.PNG" alt=""></p>
+      <p class="lead mb-5">Setelah itu akan muncul pop-up filter by keyword sesuai yang dibutuhkan pengguna, masukkan keyword pada input jenis dan value seperti berikut: </p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/jurnal-akuntansi/semuajurnal/_ag-semuajurnal-filterkeyword2.PNG" alt=""></a></p>
 
-    <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/jurnal-akuntansi/semuajurnal/_ag-semuajurnal-viewdata.PNG" alt=""></a></p><hr>
-    
-    <h6><span class="badge badge-success text-white">2. Filter data</span></h6>
-    <p class="lead mb-5">Pengguna dapat melakukan pencarian data semua jurnal dengan filter yang sudah disediakan dengan klik tombol <img class="img-fluid border" src="assets/images/jurnal-akuntansi/tipejurnal/_ag-tipejurnal-filtericon.PNG" alt=""></p>
-    <p class="lead mb-5">Setelah itu akan muncul pop-up filter by keyword sesuai yang dibutuhkan pengguna, masukkan keyword pada input jenis dan value seperti berikut: </p>
-    <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/jurnal-akuntansi/semuajurnal/_ag-semuajurnal-filterkeyword2.PNG" alt=""></a></p>
+      <p class="lead mb-5">Kemudian list data semua jurnal akan menampilkan data sesuai filter yang sudah pengguna tentukan, seperti berikut: </p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/jurnal-akuntansi/semuajurnal/_ag-semuajurnal-filterkeyresult.PNG" alt=""></a></p><hr>
 
-    <p class="lead mb-5">Kemudian list data semua jurnal akan menampilkan data sesuai filter yang sudah pengguna tentukan, seperti berikut: </p>
-    <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/jurnal-akuntansi/semuajurnal/_ag-semuajurnal-filterkeyresult.PNG" alt=""></a></p><hr>
-
-    <h6><span class="badge badge-success text-white">3. Export data</span></h6>
-    <p class="lead mb-5">Pengguna dapat melakukan export data semua jurnal yang berhubungan dengan data jurnal akuntansi, klik pada tombol <img src="assets/images/mapping/supplier/_ag_mapping-supplier-iconexport.PNG" alt="">, kemudian data yang sudah di export akan menampilkan data sebagai berikut:</p>
-    <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/jurnal-akuntansi/semuajurnal/_ag-semuajurnal-export.PNG" alt=""></a></p><hr>
-    </section>  
+      <h6><span class="badge badge-success text-white">3. Export data</span></h6>
+      <p class="lead mb-5">Pengguna dapat melakukan export data semua jurnal yang berhubungan dengan data jurnal akuntansi, klik pada tombol <img src="assets/images/mapping/supplier/_ag_mapping-supplier-iconexport.PNG" alt="">, kemudian data yang sudah di export akan menampilkan data sebagai berikut:</p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/jurnal-akuntansi/semuajurnal/_ag-semuajurnal-export.PNG" alt=""></a></p><hr>
+  </section>  
 
 
 </section>
 <hr>
-        
+
+  <!-- Laporan
+  ============================ -->
+  <section id="ag_laporan">
+      <h2>Laporan</h2>
+      <p class="lead mb-5">Pada fitur menu ini berisikan menu-menu yang bisa digunakan untuk membantu membuat laporan pada AG-Accounting. Berikut ini adalah list menu yang dimaksud : </p>
+      <ol>
+        <li>Buku Besar (Ledger)</li>
+        <li>Worksheet</li>
+        <li>Laba Rugi (Perusahaan)</li>
+        <li>Buku Besar (Cluster)</li>
+        <li>Neraca</li>
+        <li>Laba Rugi Komparatif (Perusahaan)</li>
+        <li>Laba Rugi Komparatif (Cluster)</li>
+      </ol>
+  </section>
+  <hr class="divider">
+
+  <section id="ag_ledger">
+      <h2>Buku Besar (Ledger)</h2>
+      <p class="lead mb-5">Fitur ini berfungsi untuk menampilkan akun-akun yang terkait dengan pencatatan transaksi keuangan yang berisi semua daftar perubahan pada AG-Accounting</p>
+      <h6><span class="badge badge-success text-white">1. Tampilan awal </span></h6>
+      <p>Anda bisa gunakan button filter <img src="assets/images/laporan/_ag_filterBtn.png" alt=""> untuk memulai membuat laporan.</p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_ledger1.png" alt=""></a></p><hr>
+      <h6><span class="badge badge-success text-white">2. Filter Ledger</span></h6>
+      <p>Pada filter laporan terdapat beberapa parameter yang diperlukan untuk membuat preview laporan, diantaranya adalah cabang, range tanggal transaksi dan dari akun-akun mana saja yang akan ditampilkan.</p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_ledger-filter.png" alt=""></a></p><hr>
+      <h6><span class="badge badge-success text-white">3. Preview Data Ledger</span></h6>
+      <p>Berikut adalah preview ledger yang bisa dihasilkan. Untuk hasil output akhir kita bisa gunakan button export <img src="assets/images/laporan/_ag_exportBtn.png" alt=""> untuk output berupa file spreadsheet</p>
+      <p>
+        <a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_ledger-result1.png" alt=""></a>
+        <a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_ledger-result2.png" alt=""></a>
+        <a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_ledger-result3.png" alt=""></a>
+      </p><hr>
+  </section>
+
+  <!-- worksheet -->
+  <section id="ag_worksheet">
+      <h2>Worksheet</h2>
+      <p class="lead mb-5">Fitur ini berfungsi untuk menampilkan lembar kerja yg memuat semua catatan akuntansi dan dipakai untuk menyiapkan laporan finansial perusahaan pada akhir siklus pada AG-Accounting</p>
+      <h6><span class="badge badge-success text-white">1. Tampilan awal </span></h6>
+      <p>Anda bisa gunakan button filter <img src="assets/images/laporan/_ag_filterBtn.png" alt=""> untuk memulai membuat worksheet.</p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_worksheet.png" alt=""></a></p><hr>
+      <h6><span class="badge badge-success text-white">2. Filter Worksheet</span></h6>
+      <p>Pada filter worksheet terdapat beberapa parameter yang diperlukan untuk membuat preview laporan, diantaranya adalah cabang, bulan dan tahun.</p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_worksheet-filter.png" alt=""></a></p><hr>
+      <h6><span class="badge badge-success text-white">3. Preview Data Worksheet</span></h6>
+      <p>Berikut adalah contoh preview yang bisa dihasilkan. Untuk hasil output akhir kita bisa gunakan button <img src="assets/images/laporan/_ag_exportBtn.png" alt=""> untuk output berupa file spreadsheet</p>
+      <p>
+        <a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_worksheet-result1.png" alt=""></a>
+        <a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_worksheet-result2.png" alt=""></a>
+        <a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_worksheet-result3.png" alt=""></a>
+      </p><hr>
+  </section>
+
+  <!-- LR perusahaan/Cluster -->
+  <section id="ag_labaRugi">
+      <h2>Laba Rugi Perusahaan/Cluster</h2>
+      <p class="lead mb-5">Menyediakan laporan Income Statement atau Profit and Loss Statement pada periode waktu tertentu.</p>
+      <h6><span class="badge badge-success text-white">1. Tampilan awal </span></h6>
+      <p>Anda bisa gunakan button filter <img src="assets/images/laporan/_ag_filterBtn.png" alt=""> untuk memulai membuat laporan.</p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_labaRugi-Cluster.png" alt=""></a></p><hr>
+      <h6><span class="badge badge-success text-white">2. Filter Laporan</span></h6>
+      <p>Filter neraca digunakan untuk menentukan neraca cabang spesifik dan pilihan periode tertentu.</p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_labaRugi-filter.png" alt=""></a></p><hr>
+      <h6><span class="badge badge-success text-white">3. Preview Data Laba Rugi</span></h6>
+      <p>Berikut adalah contoh hasil neraca yang bisa dihasilkan. Untuk hasil output akhir kita bisa gunakan button <img src="assets/images/laporan/_ag_exportBtn.png" alt=""> untuk output berupa file spreadsheet</p>
+      <p>
+        <a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_labaRugi-result1.png" alt=""></a>
+        <a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_labaRugi-result2.png" alt=""></a>
+      </p><hr>
+  </section>
+
+  <!-- neraca -->
+  <section id="ag_neraca">
+      <h2>Neraca</h2>
+      <p class="lead mb-5">Fitur ini berfungsi untuk menampilkan laporan keuangan perusahaan yang berisi mengenai posisi aset/harga kekayaan yang dimiliki oleh perusahaan, posisi utang, dan modal pemegang saham pada periode waktu tertentu.</p>
+      <h6><span class="badge badge-success text-white">1. Tampilan awal </span></h6>
+      <p>Anda bisa gunakan button filter <img src="assets/images/laporan/_ag_filterBtn.png" alt=""> untuk memulai membuat neraca.</p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_neraca.png" alt=""></a></p><hr>
+      <h6><span class="badge badge-success text-white">2. Filter Neraca</span></h6>
+      <p>Filter neraca digunakan untuk menentukan neraca cabang spesifik dan pilihan periode tertentu.</p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_neraca-filter.png" alt=""></a></p><hr>
+      <h6><span class="badge badge-success text-white">3. Preview Data Neraca</span></h6>
+      <p>Berikut adalah contoh hasil neraca yang bisa dihasilkan. Untuk hasil output akhir kita bisa gunakan button <img src="assets/images/laporan/_ag_exportBtn.png" alt=""> untuk output berupa file spreadsheet</p>
+      <p>
+        <a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_neraca-result1.png" alt=""></a>
+        <a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_neraca-result2.png" alt=""></a>
+        <a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_neraca-result3.png" alt=""></a>
+      </p><hr>
+  </section>
+
+  <!-- LR komparatif perusahaan/Cluster -->
+  <section id="ag_labaRugi-compare">
+      <h2>Laba Rugi Perusahaan/Cluster</h2>
+      <p class="lead mb-5">Menyediakan laporan Income Statement atau Profit and Loss Statement pada periode waktu tertentu.</p>
+      <h6><span class="badge badge-success text-white">1. Tampilan awal </span></h6>
+      <p>Anda bisa gunakan button filter <img src="assets/images/laporan/_ag_filterBtn.png" alt=""> untuk memulai membuat laporan.</p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_LR-komparatif.png" alt=""></a></p><hr>
+      <h6><span class="badge badge-success text-white">2. Filter Laporan</span></h6>
+      <p>Filter neraca digunakan untuk menentukan neraca cabang spesifik pada perbandingan 2 periode tertentu.</p>
+      <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_LR-komparatif-filter.png" alt=""></a></p><hr>
+      <h6><span class="badge badge-success text-white">3. Preview Data Laba Rugi</span></h6>
+      <p>Berikut adalah contoh hasil komparasi laporan Laba-Rugi yang bisa dihasilkan. Untuk hasil output akhir kita bisa gunakan button <img src="assets/images/laporan/_ag_exportBtn.png" alt=""> untuk output berupa file spreadsheet</p>
+      <p>
+        <a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_LR-komparatif-result1.png" alt=""></a>
+        <a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/laporan/_ag_LR-komparatif-result2.png" alt=""></a>
+      </p><hr>
+  </section>
+
         <!-- Closing
         ============================ -->
         <section id="ag_closing">
